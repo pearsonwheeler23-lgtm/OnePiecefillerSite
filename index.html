@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One Piece Episode Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <img src="images/One-Piece-Header.jpg" class="banner">
+  <h1>One Piece Episode Guide</h1>
+  <p>Canon, Filler, and Arc Explorer</p>
+</header>
+
+<input type="text" id="search" placeholder="Search episodes...">
+
+<!-- TYPE FILTERS -->
+<div class="buttons">
+  <button onclick="filterEpisodes('All')">All</button>
+  <button onclick="filterEpisodes('Canon')">Canon</button>
+  <button onclick="filterEpisodes('Filler')">Filler</button>
+</div>
+
+<!-- ARC FILTERS -->
+<div class="buttons">
+  <button onclick="filterArc('All')">All Arcs</button>
+  <button onclick="filterArc('East Blue')">East Blue</button>
+  <button onclick="filterArc('Alabasta')">Alabasta</button>
+  <button onclick="filterArc('Sky Island')">Sky Island</button>
+  <button onclick="filterArc('Water 7')">Water 7</button>
+  <button onclick="filterArc('Thriller Bark')">Thriller Bark</button>
+  <button onclick="filterArc('Marineford')">Marineford</button>
+  <button onclick="filterArc('Dressrosa')">Dressrosa</button>
+  <button onclick="filterArc('Whole Cake Island')">Whole Cake Island</button>
+  <button onclick="filterArc('Wano')">Wano</button>
+</div>
+
+<div id="episode-list"></div>
+
+<script src="script.js"></script>
+</body>
+</html
